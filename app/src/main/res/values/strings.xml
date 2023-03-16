@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">androidFirst</string>
+    <string name="app_btn1">클릭하기</string>
+    <string name="app_btn2">보이지않기</string>
+    <string name="app_btn3">사라지기</string>
+    <string name="app_ellips">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at efficitur metus, non dapibus elit. Maecenas in porta tellus, a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at efficitur metus, non dapibus elit. Maecenas in porta tellus, a.</string>
+    <string name="app_message1">회원님의 소중한 정보 보호를 위해, 카카오계정의 현재 비밀번호를 확인 주세요.</string>
+    <string name="app_message2">비밀번호가 기억나지 않으세요?</string>
+    <string name="app_message3">비밀번호</string>
+    <string name="app_btnOk">확인</string>
+
 </resources>
