@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/access"
+            android:icon="@drawable/baseline_accessibility_24"
+            android:title="접근성" />
+        <item
+            android:id="@+id/Email"
+            android:icon="@drawable/baseline_email_24"
+            android:title="이메일" />
+        <item
+            android:id="@+id/message"
+            android:icon="@drawable/baseline_send_24"
+            android:title="메시지" />
+
+
+    </group>
+</menu>
