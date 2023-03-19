@@ -42,6 +42,9 @@ dependencies {
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
     implementation 'com.google.android.material:material:1.8.0'
+    //홍드로이드9 사진에서 쓰는 임플리먼트인데 안되서 다른걸로 바꿈
+//    implementation 'io.github.ParkSangGwon:tedpermission:2.3.0'
+    implementation 'com.google.android.gms:play-services-ads-lite:20.6.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'

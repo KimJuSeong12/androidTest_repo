@@ -2,6 +2,24 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
+    <!--    홍드로이드9에 쓰는것-->
+    <!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> &lt;!&ndash; 파일 쓰기 권한 &ndash;&gt;-->
+    <!--    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>  &lt;!&ndash; 파일 읽기 권한 &ndash;&gt;-->
+    <!--    <uses-permission android:name="android.permission.CAMERA"/>  &lt;!&ndash; 카메라 권한 &ndash;&gt;-->
+    <!--    <uses-feature android:name="android.hardware.camera" android:required="true"/>  &lt;!&ndash; 카메라 기능 사용 &ndash;&gt;-->
+
+    <!--   홍드로이드8에 쓰는거 -->
+    <!--  인터넷 퍼미션 (권한)  -->
+    <!--    <uses-permission android:name="android.permission.INTERNET" />-->
+    <!--어플리케이션 안에 들어가는 테마-->
+    <!--    android:theme="@style/Theme.AppCompat.Light.NoActionBar"-->
+
+
+    <!--        tools:replace="android:appComponentFactory"-->
+    <!--        android:appComponentFactory="whateverString"-->
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,6 +28,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFirst"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
             android:name=".SubHondroid1"
@@ -36,9 +55,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--        <provider-->
+        <!--            android:authorities="com.example.androidfirst.fileprovider"-->
+        <!--            android:name="androidx.core.content.FileProvider"-->
+        <!--            android:exported="false"-->
+        <!--            android:grantUriPermissions="true">-->
+        <!--            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"-->
+        <!--                android:resource="@xml/file_paths"/>-->
+
+        <!--        </provider>-->
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false">
+
+        </activity>
         <activity
             android:name=".SubActivity"
             android:exported="false" />
